@@ -33,7 +33,7 @@ void printMenu() {
     printf("\t11. Logaritma\n");
     printf("\t12. Logaritma Natural (ln)\n");
     printf("\t13. Trigonometri\n");
-    printf("\t14. Konversi Suhu\n");
+    printf("\t14. Konversi Suhu\n"); 
     
     
 }
@@ -141,9 +141,9 @@ int hitungPangkatDua() {
 int hitungSisaBagi() {
     struct Kalkulator k;
     printf("\n6. Sisa bagi :\n");
-    printf("Masukkan pembilang: ");
+    printf("Masukkan angka: ");
     scanf("%d", &k.a);
-    printf("Masukkan penyebut: ");
+    printf("Masukkan pembagi: ");
     scanf("%d", &k.b);
     k.hasilbagi = k.a % k.b;
     printf("------------------------------- %%\n");
